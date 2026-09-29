@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.4.0.0" runtimeid="3.5.18.60" libversion="4.4.0.0" compiler="3.5.18.50" lmm="3.5.18.60" profile="MasterTool IEC XE 3.76" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="NX3008 + Beckhoff + AB + Balluff - Teste_22_01_2025" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="modbus">
+        <Node name="BVAR_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="BVAR_10" type="T_BOOL" access="ReadWrite" />
+        <Node name="BVAR_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="BVAR_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="BVAR_4" type="T_BOOL" access="ReadWrite" />
+        <Node name="BVAR_5" type="T_BOOL" access="ReadWrite" />
+        <Node name="BVAR_6" type="T_BOOL" access="ReadWrite" />
+        <Node name="BVAR_7" type="T_BOOL" access="ReadWrite" />
+        <Node name="BVAR_8" type="T_BOOL" access="ReadWrite" />
+        <Node name="BVAR_9" type="T_BOOL" access="ReadWrite" />
+        <Node name="DEADVAR" type="T_BOOL" access="ReadWrite" />
+        <Node name="DO_COLUNA_REMOTA1_LED1_VERDE" type="T_BOOL" access="ReadWrite" />
+        <Node name="DO_COLUNA_REMOTA1_LED1_VERMELHO" type="T_BOOL" access="ReadWrite" />
+        <Node name="DO_COLUNA_REMOTA1_LED2_VERDE" type="T_BOOL" access="ReadWrite" />
+        <Node name="DO_COLUNA_REMOTA1_LED2_VERMELHO" type="T_BOOL" access="ReadWrite" />
+        <Node name="DO_COLUNA_REMOTA1_LED3_VERDE" type="T_BOOL" access="ReadWrite" />
+        <Node name="DO_COLUNA_REMOTA1_LED3_VERMELHO" type="T_BOOL" access="ReadWrite" />
+        <Node name="DO_COLUNA_REMOTA1_LED4_VERDE" type="T_BOOL" access="ReadWrite" />
+        <Node name="DO_COLUNA_REMOTA1_LED4_VERMELHO" type="T_BOOL" access="ReadWrite" />
+        <Node name="DO_COLUNA_REMOTA1_LED5_VERDE" type="T_BOOL" access="ReadWrite" />
+        <Node name="DO_COLUNA_REMOTA1_LED5_VERMELHO" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
